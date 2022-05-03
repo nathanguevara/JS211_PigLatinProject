@@ -2,18 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Pig Latin Translator</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <hr/>
-    <div id="display-element"></div>
-    <form>
-      <input id="user-input" type="text">
-      <!-- How do you get this input sent to the pigLatin() function? -->
-      <button onclick="pigLatin()">Translate</button>
-    </form>  
-    <hr/>
+    <main>
+      <h1>Pig Latin Translator</h1>
+      
+        <label for="translator">Enter a word below and click Translate to see the translation.</label>
+        <input id="translateBox" type = "text">
+        <button id="tButton" onclick="pigGUI()">Translate</button>
+        <div id= "result">
+        
+        </div>
+     <img src="./piglogo.PNG"
+    </main>
   </body>
 </html>
